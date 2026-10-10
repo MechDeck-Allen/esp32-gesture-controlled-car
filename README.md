@@ -105,8 +105,7 @@ The current basic complementary filter estimates roll and pitch. The MPU6050 has
 
 ## Project photos and CAD
 
-Completed-build photos are in [`media/photos/`](media/photos/). Add the SolidWorks `.sldprt` and STL files to `cad/` before committing them. The CAD files were not included in the uploaded photo set, so this package contains a placeholder note rather than fabricated CAD files.
-
+Completed-build photos are in [`media/photos/`](media/photos/). Cad files along with their stl files can be dowloaded from the [cad/](cad/) folder.
 ## Known implementation notes
 
 - The transmitter expects the MPU6050 at I²C address `0x68`; AD0 high may change it to `0x69`.
